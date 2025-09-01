@@ -3,7 +3,7 @@ namespace ACME.OOP.SCM.Domain.Model.ValueObjects;
 /// <summary>
 /// Rerepresent a unique identifier for a supplier
 /// </summary>
-public record SupplierId()
+public record SupplierId
 {
     public string Identifier { get; init; }
     

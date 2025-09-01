@@ -3,7 +3,7 @@ namespace ACME.OOP.Procurrement.Domain.Model.ValueObject;
 /// <summary>
 /// Represent a unique identifier for a product
 /// </summary>
-public record ProductId()
+public record ProductId
 {
     /// <summary>
     /// The unique identifier for the product
