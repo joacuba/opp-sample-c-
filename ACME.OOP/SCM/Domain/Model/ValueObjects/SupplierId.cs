@@ -5,7 +5,7 @@ namespace ACME.OOP.SCM.Domain.Model.ValueObjects;
 /// </summary>
 public record SupplierId()
 {
-    public string Indentifier { get; init; }
+    public string Identifier { get; init; }
     
     /// <summary>
     /// Initializes a new instance of the <see cref="SupplierId"/> value object.
@@ -22,5 +22,5 @@ public record SupplierId()
     /// <summary>
     /// override ToString method to return the identifier as a string.
     /// </summary>
-    public override string ToString() => $"{Indentifier}";
+    public override string ToString() => $"{Identifier}";
 }
